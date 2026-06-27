@@ -1,0 +1,91 @@
+/* ----- CONTACT ----- */
+
+.contact-hero {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background: var(--background-color);
+}
+
+.contact-hero h1 {
+    color: #3c5a3c;
+    margin-bottom: 1rem;
+}
+
+.contact-hero p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    display: grid;
+    gap: 1.5rem;
+    padding: 0 1rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-card {
+    background: white;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.contact-card h2 {
+    margin-bottom: 1.5rem;
+    color: #3c5a3c;
+    text-align: center;
+}
+
+.contact-infos {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-infos li {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: .4rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    padding: .9rem;
+    border: 1px solid #d4ddd0;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: white;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-rdv {
+    text-align: center;
+    padding: 2rem 1rem 4rem;
+}
+
+.contact-rdv h2 {
+    color: #3c5a3c;
+}
+
+.contact-rdv p {
+    margin-bottom: 1.5rem;
+}

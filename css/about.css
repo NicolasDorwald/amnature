@@ -1,0 +1,92 @@
+/* ----- QUI SUIS-JE ----- */
+
+.about-hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--background-color);
+}
+
+.about-hero h1 {
+    color: #3c5a3c;
+}
+
+.about-subtitle {
+    font-style: italic;
+    color: #5a7c5a;
+}
+
+.about-profile,
+.about-story,
+.about-qualifications, .about-partners {
+    padding: 0 1rem 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: var(--background-color);
+}
+
+.headers-photo {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,.1);
+}
+
+.about-card,
+.story-card,
+.qualification-card, .partners-card {
+    background: white;
+    padding: 1.8rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.about-card p, .story-card p {
+    margin-top: 1rem;
+}
+
+.about-card h2,
+.story-card h2,
+.qualification-card h2, .about-partners h2 {
+    color: #5a7c5a;
+    margin-bottom: 1rem;
+}
+
+.qualification-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.qualification-card li {
+    margin-bottom: .8rem;
+}
+
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.partners-grid img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(20%);
+    transition: 0.3s;
+}
+
+.partners-grid img:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
+/* tablette + desktop */
+
+/* @media (min-width: 768px) {
+
+    .contact-container {
+        grid-template-columns: 1fr 2fr;
+        align-items: start;
+    }
+} */
