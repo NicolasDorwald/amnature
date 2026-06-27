@@ -1,15 +1,5 @@
 /* --------- ACCOMPAGNEMENTS --------- */
 
-.accompagnement-hero {
-    padding: 2rem 1rem;
-    background: var(--background-color);
-}
-
-.accompagnement-hero h1 {
-    text-align: center;
-    color: #3c5a3c;
-}
-
 .intro {
     text-align: center;
     font-size: 1rem;
@@ -17,18 +7,14 @@
     font-style: italic;
 }
 
-.intro-card {
+/* .intro-card {
     background: white;
     border-radius: 14px;
-    padding: 1.5rem;
+    padding: .5rem;
     max-width: 900px;
     margin: auto;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
-.intro-card p {
-    margin-bottom: 1rem;
-}
+} */
 
 .tools-section {
     padding: 2rem 1rem 2rem 1rem;
@@ -57,7 +43,7 @@
 }
 
 .tool-content {
-    padding: 1.5rem;
+    padding: .5rem;
 }
 
 .tool-content h3 {
@@ -76,4 +62,5 @@
 
 .tool-content li {
     margin-bottom: .5rem;
+    font-family: var(--font-main);
 }

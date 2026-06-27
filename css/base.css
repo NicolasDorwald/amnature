@@ -11,8 +11,9 @@
     /* couleurs */
     --background-color: rgba(203, 215, 192, 0.123);
     --background-overlay: #effcebd3;
+    --title-color: rgb(70, 92, 72);
     /* polices */
-    /* --font-main: 'Source Sans 3', sans-serif; */
+     --font-title: 'Source Sans 3', sans-serif;
     /* --font-accent: 'Great Vibes', cursive; */
     /* --font-main: 'Manrope', sans-serif; */
     --font-accent: 'Allura', cursive;
@@ -21,4 +22,64 @@
 
 body {
     font-family: var(--font-main);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: .8rem;
+    color: var(--title-color);
+    font-family: var(--font-title);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.decorative-title {
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: var(--title-color);
+}
+
+.decorative-title::before,
+.decorative-title::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #5a7c5a;
+}
+
+h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: .5rem;
+}
+
+p {
+    color: black;
+    margin: .8rem;
+}
+
+.consultation-hero,
+.accompagnement-hero,
+.prestations-hero,
+.about-hero,
+.contact-hero {
+    padding: 1.2rem;
+    background: var(--background-color);
+}
+
+.intro-card,
+.consultation-card,
+.about-card,
+.story-card,
+.qualification-card, .partners-card  {
+    background: white;
+    border-radius: 14px;
+    padding: .5rem;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }

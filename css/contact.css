@@ -1,21 +1,5 @@
 /* ----- CONTACT ----- */
 
-.contact-hero {
-    text-align: center;
-    padding: 3rem 1.5rem;
-    background: var(--background-color);
-}
-
-.contact-hero h1 {
-    color: #3c5a3c;
-    margin-bottom: 1rem;
-}
-
-.contact-hero p {
-    max-width: 650px;
-    margin: 0 auto;
-}
-
 .contact-container {
     display: grid;
     gap: 1.5rem;
