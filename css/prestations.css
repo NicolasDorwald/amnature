@@ -1,0 +1,100 @@
+/* -------- PRESTATIONS -------- */
+
+.prestations-hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--background-color);
+}
+
+.prestations-hero h1 {
+    color: #3c5a3c;
+}
+
+.prestations-subtitle {
+    color: #5a7c5a;
+    font-style: italic;
+    max-width: 700px;
+    margin: auto;
+}
+
+.prestations-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.prestation-card {
+    background: white;
+    border-radius: 14px;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.prestation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prestation-header h2 {
+    color: #3c5a3c;
+    font-size: 1.2rem;
+}
+
+.price {
+    background: #5a7c5a;
+    color: white;
+    padding: .4rem .9rem;
+    border-radius: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.duration {
+    color: #5a7c5a;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* FORFAIT */
+
+.package-card {
+    background: #effcebbd;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+.package-card h2 {
+    color: #3c5a3c;
+    margin-bottom: 1rem;
+}
+
+.package-price {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5a7c5a;
+}
+
+/* CTA */
+
+.prestations-cta {
+    text-align: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.prestations-cta h2 {
+    color: #3c5a3c;
+}
+
+.prestations-cta p {
+    margin-bottom: 1.5rem;
+}
+

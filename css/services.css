@@ -1,0 +1,79 @@
+/* --------- ACCOMPAGNEMENTS --------- */
+
+.accompagnement-hero {
+    padding: 2rem 1rem;
+    background: var(--background-color);
+}
+
+.accompagnement-hero h1 {
+    text-align: center;
+    color: #3c5a3c;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.intro-card {
+    background: white;
+    border-radius: 14px;
+    padding: 1.5rem;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.intro-card p {
+    margin-bottom: 1rem;
+}
+
+.tools-section {
+    padding: 2rem 1rem 2rem 1rem;
+    background: var(--background-color);
+}
+
+.tools-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3c5a3c;
+}
+
+.tool-card {
+    padding: 1rem;
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.tool-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.tool-content {
+    padding: 1.5rem;
+}
+
+.tool-content h3 {
+    color: #5a7c5a;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.tool-content p {
+    margin-bottom: 1rem;
+}
+
+.tool-content ul {
+    padding-left: 1.2rem;
+}
+
+.tool-content li {
+    margin-bottom: .5rem;
+}

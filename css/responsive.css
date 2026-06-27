@@ -1,0 +1,43 @@
+/* =========================
+   TABLETTE
+========================= */
+
+/* @media (min-width: 768px) {
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero-image,
+    .hero-content {
+        flex: 1;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+/* @media (min-width: 1024px) {
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+} */ 

@@ -1,0 +1,76 @@
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background: #2f3b2f;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer nav ul li {
+    margin: 5px 0;
+}
+
+.footer nav a {
+    color: #cdd9cd;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #cdd9cd;
+    margin-top: 10px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #5a7c5a;
+    color: white;
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    font-size: 20px;
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    opacity: 0;              /* caché au début */
+    pointer-events: none;    /* pas cliquable */
+        z-index: 9999;
+}
+
+.back-to-top:hover {
+    transform: translateY(-3px);
+}

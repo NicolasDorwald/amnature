@@ -1,0 +1,116 @@
+/* =========================
+   QUAND CONSULTER
+========================= */
+
+.consultation-hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--background-color);
+}
+
+.consultation-hero h1 {
+    color: #3c5a3c;
+}
+
+.consultation-subtitle {
+    font-style: italic;
+    color: #5a7c5a;
+}
+
+.consultation-intro,
+.consultation-needs,
+.consultation-other {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1rem 2rem;
+}
+
+.consultation-needs h2,
+.consultation-other h2 {
+    text-align: center;
+    color: #3c5a3c;
+    margin-bottom: 1rem;
+}
+
+.consultation-card {
+    background: white;
+    border-radius: 14px;
+    padding: 1.8rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.consultation-card p {
+    margin-bottom: 1rem;
+}
+
+.needs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.needs-list li {
+    padding: .8rem 0;
+    border-bottom: 1px solid #edf1ea;
+}
+
+.needs-list li:last-child {
+    border-bottom: none;
+}
+
+/* =========================
+   IMAGE + CITATION
+========================= */
+
+.consultation-image {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px 20px;
+
+    background-image: url("../images/images17.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.about-image {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px 20px;
+
+    background-image: url("../images/image6.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* voile pour stabiliser visuellement */
+.consultation-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.quote-bubble p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.quote-bubble span {
+    font-style: italic;
+    opacity: 0.8;
+}
