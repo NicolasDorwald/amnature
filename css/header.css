@@ -11,7 +11,7 @@
     text-align: center;
     gap: 1rem;
     position: relative;
-    /* z-index: 1000; */
+    z-index: 20;
 }
 
 .logo {
@@ -19,20 +19,27 @@
     width: 100%;
     display: flex;
     justify-content: center;
+position: relative;
+    z-index: 30;
 }
+
 .logo img {
     /* width: 140px;
     max-width: 100%;
     height: auto; */
-
+    transition: transform 0.2s ease;
     width: min(280px, 70%);
     height: auto;
     border-radius: .5rem;
 }
 
+.logo:hover img {
+    transform: scale(1.05);
+}
+
 .nav {
     position: relative;
-    z-index: 2000;
+    z-index: 10;
 }
 /* état fermé*/
 .nav-menu {

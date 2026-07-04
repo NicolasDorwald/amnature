@@ -41,23 +41,6 @@
     
 }
 
-.about-image {
-    position: relative;
-    width: 100%;
-    min-height: 500px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 80px 20px;
-
-    background-image: url("../images/image6.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
 /* voile pour stabiliser visuellement */
 .consultation-image::before {
     content: "";
