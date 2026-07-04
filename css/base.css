@@ -1,11 +1,12 @@
 @import url("header.css");
 @import url("home.css");
-@import url("prestations.css");
+@import url("tarifs-prestations.css");
 @import url("footer.css");
-@import url("services.css");
-@import url("when.css");
+@import url("accompagnements.css");
+@import url("quand-consulter.css");
 @import url("contact.css");
-@import url("about.css");
+@import url("a-propos.css");
+@import url("mentions-legales.css");
 
 :root {
     /* couleurs */
@@ -66,7 +67,7 @@ p {
 .accompagnement-hero,
 .prestations-hero,
 .about-hero,
-.contact-hero {
+.contact-hero, .legal-page {
     padding: 1.2rem;
     background: var(--background-color);
 }

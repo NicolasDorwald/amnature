@@ -1,0 +1,99 @@
+/* ----- MENTIONS LEGALES ----- */
+
+.legal-page {
+    max-width: 900px;
+    /* margin: 120px auto; */
+    padding: 0 1rem;;
+    background: var(--background-color);
+}
+
+.legal-page h2 {
+    font-size: 1.2rem;
+    /* text-align: center;
+    margin-bottom: 1.5rem; */
+}
+
+.legal-page p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* ----- cartes ----- */
+
+.legal-page article {
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 30px;
+    transition: .25s ease;
+}
+
+.legal-page article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+}
+
+/* ===========================
+   LISTES
+   =========================== */
+
+.legal-page ul {
+    padding-left: 20px;
+}
+
+.legal-page li {
+    margin-bottom: .7rem;
+}
+
+.legal-page strong {
+    color: #3d5d46;
+}
+
+/* ===========================
+   LIENS
+   =========================== */
+
+.legal-page a {
+    color: #4d7d57;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.legal-page a:hover {
+    color: #27452f;
+    text-decoration: underline;
+}
+
+/* ===========================
+   TABLETTE
+   =========================== */
+
+/* @media (max-width: 768px) {
+
+    .legal-page {
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+
+    .legal-page article {
+        padding: 22px;
+    }
+
+} */
+
+/* ===========================
+   MOBILE
+   =========================== */
+
+@media (max-width: 480px) {
+
+    .legal-page {
+        /* margin: 60px auto; */
+        font-size: .95rem;
+    }
+
+    /* .legal-page h2 {
+        font-size: 1.6rem;
+    } */
+
+}
