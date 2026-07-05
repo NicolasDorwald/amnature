@@ -1,35 +1,42 @@
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("contactForm");
-    const messageDiv = document.getElementById("contact-message");
-    const submitBtn = form.querySelector("button[type='submit']");
 
-    if (!form || !submitBtn) return;
+    const popup = document.getElementById("formPopup");
+    const popupMessage = document.getElementById("popupMessage");
+    const closePopup = document.getElementById("closePopup");
 
-    form.addEventListener("submit", function(e) {
+    function showPopup(message) {
+        popupMessage.textContent = message;
+        popup.classList.add("show");
+    }
+
+    closePopup.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+
+    form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const data = new FormData(form);
+        const formData = new FormData(form);
 
-        fetch(form.action, {
-            method: form.method,
-            body: data,
-            headers: { 'Accept': 'application/json' }
-        })
-        .then(response => {
+        try {
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
             if (response.ok) {
-                
-                submitBtn.style.display = "none";
-                messageDiv.textContent = "Merci, votre message a été envoyé !";
-                messageDiv.style.color = "green";
-                form.reset(); 
+                showPopup("🌿 Merci ! Votre message a bien été envoyé.");
+                form.reset();
             } else {
-                messageDiv.textContent = "Oups, une erreur est survenue. Réessayez.";
-                messageDiv.style.color = "red";
+                showPopup("Oups, une erreur est survenue.");
             }
-        })
-        .catch(() => {
-            messageDiv.textContent = "Oups, une erreur est survenue. Réessayez.";
-            messageDiv.style.color = "red";
-        });
+
+        } catch (error) {
+            showPopup("Erreur de connexion.");
+        }
     });
 });

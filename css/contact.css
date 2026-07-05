@@ -110,3 +110,56 @@
         opacity: 1;
     }
 }
+
+/* ----- contact confirmation ----- */
+.form-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.3);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+.form-popup.show {
+    display: flex;
+}
+
+.form-popup-content {
+    background: #e6f0e6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 320px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    animation: popupIn 0.3s ease-out;
+}
+
+@keyframes popupIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.form-popup-content button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #8baa5a;
+    color: white;
+    cursor: pointer;
+}
