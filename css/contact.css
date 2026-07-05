@@ -2,7 +2,7 @@
     display: grid;
     gap: 1.5rem;
     padding: 0 1rem 1rem;
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -72,4 +72,41 @@
 
 .contact-rdv p {
     margin-bottom: 1.5rem;
+}
+
+/* ----- arrows wave ----- */
+.arrow-wave {
+    display: inline-flex;
+    gap: 2px;
+    margin-right: 6px;
+}
+
+.arrow-wave span {
+    display: inline-block;
+    animation: wave 1.4s ease-in-out infinite;
+    font-size: 18px;
+}
+
+/* décalage des animations */
+.arrow-wave span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.arrow-wave span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.arrow-wave span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(6px);
+        opacity: 1;
+    }
 }
