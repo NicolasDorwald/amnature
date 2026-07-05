@@ -2,7 +2,7 @@
    TABLETTE
 ========================= */
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 
     .header {
         flex-direction: row;
@@ -24,20 +24,32 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .tool-card {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        align-items: center;
+    }
+
 }
 
 /* =========================
    DESKTOP
 ========================= */
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
     .grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
 
     .hero-content h2 {
         font-size: 2.2rem;
     }
-} */ 
+}

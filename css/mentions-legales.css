@@ -1,16 +1,11 @@
-/* ----- MENTIONS LEGALES ----- */
-
 .legal-page {
     max-width: 900px;
-    /* margin: 120px auto; */
     padding: 0 1rem;;
     background: var(--background-color);
 }
 
 .legal-page h2 {
     font-size: 1.2rem;
-    /* text-align: center;
-    margin-bottom: 1.5rem; */
 }
 
 .legal-page p {
@@ -63,23 +58,6 @@
     color: #27452f;
     text-decoration: underline;
 }
-
-/* ===========================
-   TABLETTE
-   =========================== */
-
-/* @media (max-width: 768px) {
-
-    .legal-page {
-        margin: 80px auto;
-        padding: 0 20px;
-    }
-
-    .legal-page article {
-        padding: 22px;
-    }
-
-} */
 
 /* ===========================
    MOBILE

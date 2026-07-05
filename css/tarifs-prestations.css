@@ -1,7 +1,5 @@
-/* -------- PRESTATIONS -------- */
-
 .prestations-container {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding: 0 1rem;
 }
@@ -80,4 +78,3 @@
 .prestations-cta p {
     margin-bottom: 1.5rem;
 }
-

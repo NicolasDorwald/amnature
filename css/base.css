@@ -7,6 +7,7 @@
 @import url("contact.css");
 @import url("a-propos.css");
 @import url("mentions-legales.css");
+@import url("responsive.css");
 
 :root {
     /* couleurs */
@@ -14,15 +15,17 @@
     --background-overlay: #effcebd3;
     --title-color: rgb(70, 92, 72);
     /* polices */
-     --font-title: 'Source Sans 3', sans-serif;
-    /* --font-accent: 'Great Vibes', cursive; */
-    /* --font-main: 'Manrope', sans-serif; */
+    --font-title: 'Source Sans 3', sans-serif;
     --font-accent: 'Allura', cursive;
     --font-main: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 body {
     font-family: var(--font-main);
+}
+
+main {
+    background: var(--background-color);
 }
 
 h1 {
@@ -63,24 +66,19 @@ p {
     margin: .8rem;
 }
 
-.consultation-hero,
-.accompagnement-hero,
-.prestations-hero,
-.about-hero,
+.consultation-hero, .accompagnement-hero,
+.prestations-hero, .about-hero,
 .contact-hero, .legal-page {
     padding: 1.2rem;
-    background: var(--background-color);
 }
 
-.intro-card,
-.consultation-card,
-.about-card,
-.story-card,
-.qualification-card, .partners-card  {
+.intro-card, .consultation-card,
+.about-card, .story-card,
+.qualification-card, .partners-card {
     background: white;
     border-radius: 14px;
     padding: .5rem;
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }

@@ -1,12 +1,9 @@
-/* ----- QUI SUIS-JE ----- */
-
 .about-profile,
 .about-story,
 .about-qualifications, .about-partners {
     padding: 0 1rem 2rem;
     max-width: 900px;
     margin: auto;
-    background: var(--background-color);
 }
 
 .headers-photo {
@@ -49,13 +46,3 @@
   display: flex;
   align-items: center;
 }
-
-/* tablette + desktop */
-
-/* @media (min-width: 768px) {
-
-    .contact-container {
-        grid-template-columns: 1fr 2fr;
-        align-items: start;
-    }
-} */
