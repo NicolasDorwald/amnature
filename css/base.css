@@ -12,6 +12,7 @@
 :root {
     /* couleurs */
     --background-color: rgba(203, 215, 192, 0.123);
+    --fushia-border: #a77fb388;
     --background-overlay: #effcebd3;
     --title-color: rgb(70, 92, 72);
     /* polices */
