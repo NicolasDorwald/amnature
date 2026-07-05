@@ -204,3 +204,23 @@ article img {
     font-size: 1.2rem;
     color: #212e21e3;
 }
+
+/* ----- Responsive Design ----- */
+
+@media (min-width: 768px) {
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+}
