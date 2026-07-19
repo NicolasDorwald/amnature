@@ -47,13 +47,3 @@
     inset: 0;
     background: rgba(255, 255, 255, 0.15);
 }
-
-.quote-bubble p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.quote-bubble span {
-    font-style: italic;
-    opacity: 0.8;
-}

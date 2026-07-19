@@ -151,7 +151,6 @@ article img {
 ========================= */
 .nature-image {
   width: 100%;
-  background: var(--background-color); /* fallback */
   display: flex;
   justify-content: center;
 }
@@ -159,7 +158,7 @@ article img {
 .nature-image-inner {
   width: 100%;
   max-width: 1200px; /* 👈 limite la “zone d’image” */
-  height: 100vh;
+  height: 80vh;
 
   background-image: url("../images/river-green-nature.webp");
   background-size: cover;
