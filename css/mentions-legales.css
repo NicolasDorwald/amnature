@@ -1,3 +1,10 @@
+.legals {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    color: #3c5a3c;
+}
+
 .legal-page {
     padding: 0 1rem;;
     background: var(--background-color);
