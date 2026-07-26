@@ -1,10 +1,12 @@
 .home-hero {
     padding-top: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .home-hero-image {
     position: relative;
-    height: 45vh;
+    height: 60vh;
     overflow: hidden;
     background-image: url("../images/apothecary-scene-mobile.webp");
     background-size: cover;
@@ -27,15 +29,20 @@
     align-items: flex-start;
     color: white;
     z-index: 1;
-    padding: 0 1rem;
+    padding: 0 .5rem;
     max-width: 350px;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .subtitle {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     padding-top: 1rem;
     color: rgb(55, 75, 57);
     font-size: 1rem;
@@ -43,7 +50,6 @@
 
 .job {
     font-size: .8rem;
-    font-weight: bold;
     text-align: center;
     font-style: italic;
 }
@@ -55,11 +61,12 @@
 }
 
 .home-hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: left;
     color: rgb(55, 75, 57);
     font-family: var(--font-accent);
-    font-weight:200;  
+    font-weight:200;
+    margin: 0.8rem 0.5rem 0.8rem 1rem;
 }
 
 .services-list {
@@ -205,6 +212,19 @@ article img {
 }
 
 /* ----- Responsive Design ----- */
+@media (min-width: 450px) {
+
+    .home-hero-image {
+        border-radius: 1rem;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .home-hero-content {
+        padding: 0 1rem;
+    }
+    
+}
+
 
 @media (min-width: 768px) {
 
