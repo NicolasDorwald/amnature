@@ -4,7 +4,7 @@
     padding: 0 1rem;
 }
 
-.prestation-card {
+.prestation-card, .disclaimer-section {
     background: white;
     border-radius: 14px;
     padding: 1.4rem;
@@ -23,7 +23,7 @@
     margin-bottom: 1rem;
 }
 
-.prestation-header h2 {
+.prestation-header h2, .disclaimer-section h2 {
     color: #3c5a3c;
     font-size: 1.2rem;
 }
@@ -75,7 +75,7 @@
     padding: 2rem 1rem 2rem 1rem;
 }
 
-.prestations-cta h2 {
+.prestations-cta h2, .disclaimer-section h2 {
     color: #3c5a3c;
 }
 

@@ -163,3 +163,16 @@
     color: white;
     cursor: pointer;
 }
+
+.contact-disclaimer {
+    margin-top: 1.5rem;
+    font-size: .9rem;
+    font-style: italic;
+    color: #171616;
+    text-align: center;
+}
+
+.contact-disclaimer strong {
+    font-weight: 600;
+    font-style: normal;
+}
