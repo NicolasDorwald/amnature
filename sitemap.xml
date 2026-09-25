@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- PAGE D'ACCUEIL -->
+    <url>
+        <loc>https://amnature.fr/</loc>
+    </url>
+
+    <!-- PAGE Accompagnements -->
+    <url>
+        <loc>https://amnature.fr/accompagnements.html</loc>
+    </url>
+
+    <!-- PAGE Qui suis-je ? -->
+    <url>
+        <loc>https://amnature.fr/a-propos.html</loc>
+    </url>
+
+    <!-- PAGE Contact -->
+    <url>
+        <loc>https://amnature.fr/contact.html</loc>
+    </url>
+
+    <!-- PAGE Quand consulter ? -->
+    <url>
+        <loc>https://amnature.fr/quand-consulter.html</loc>
+    </url>
+
+    <!-- PAGE Tarifs et prestations -->
+    <url>
+        <loc>https://amnature.fr/tarifs-prestations.html</loc>
+    </url>
+
+        <!-- PAGE Mentions légales -->
+    <url>
+        <loc>https://amnature.fr/mentions-legales.html</loc>
+    </url>
+</urlset>
