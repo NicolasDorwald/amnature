@@ -46,3 +46,84 @@
   display: flex;
   align-items: center;
 }
+
+/* ----- partners section ----- */
+/* =========================
+   PARTNERS
+========================= */
+
+.about-partners {
+    padding: 2rem 1rem;
+}
+
+.partners-card {
+    max-width: 800px;
+    margin: 0 auto;
+
+    background: white;
+    padding: 22px;
+
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.partners-card h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.partners-card p {
+    margin: 0;
+    text-align: center;
+}
+
+/* =========================
+   PARTNERS GRID
+========================= */
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.partners-grid a {
+    min-height: 160px;
+
+    background: white;
+    border-radius: 14px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.partners-grid a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.partners-grid img {
+    display: block;
+
+    max-width: 90%;
+    max-height: 120px;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+}

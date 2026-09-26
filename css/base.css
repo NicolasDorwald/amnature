@@ -85,6 +85,10 @@ p {
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
+.partners-card {
+    padding: 1rem;
+}
+
 .accompagnement-hero img, .consultation-hero img, 
 .prestations-hero img, .about-hero img, .contact-hero img {
     max-width: 500px;
